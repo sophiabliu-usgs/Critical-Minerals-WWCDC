@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Critical Minerals</title>
+        <script src='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet' />
+    </head>
+    <body>
+        
+        <h1>Critical Minerals</h1>
+        
+        <div id='map' style='width: 400px; height: 300px;'></div>
+        
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoicmJoYXNrZXIiLCJhIjoiY05DdUNESSJ9.b_BqPiHNFxrpXdsIS5ov1g';
+        
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/rbhasker/cinneu96j004scnnkg9ky76pm'
+            });
+        </script>
+    
+    </body>
+</html>
