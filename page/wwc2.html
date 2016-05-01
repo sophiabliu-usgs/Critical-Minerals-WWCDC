@@ -4,18 +4,89 @@
     <title>Critical Minerals</title>
     <meta charset="UTF-8">
     <meta name="description" content="Critical Minerals">
-    <meta name="keywords" content="HTML,CSS">
-    <meta name="author" content="Elizaveta Kishchukova">
     <link rel="stylesheet" type="text/css" href="wwc.css">
   </head>
 
   <body>
+    <script type="text/javascript">
+      <!--
+        function hide_all()
+        {
+          hide('hid1');
+          hide('hid2');
+          hide('hid3');
+          hide('hid4');
+        }
+
+        function hide(id) 
+        {
+          var e = document.getElementById(id);
+          e.style.display = 'none';
+        }
+
+        function show(id)
+        {
+          var e = document.getElementById(id);
+          e.style.display = 'block';
+        }
+      //-->
+</script>
+    </script>
+
+    <center><h1>Important minerals used in mobile devices</h1>
+            <h2>Click on each part to see some of the minerals used</h2></center>
     <div class="main_area">
       <center>
-        <img src="phone_parts1.png"></img>
-        <img src="phone_parts2.png"></img>
-        <img src="phone_parts3.png"></img>
-        <img src="phone_parts4.png"></img>
+        <img src="phone_parts1.png" onclick="hide_all(); show('hid1');"></img>
+        <img src="phone_parts2.png" onclick="hide_all(); show('hid2');"></img>
+        <img src="phone_parts3.png" onclick="hide_all(); show('hid3');"></img>
+        <img src="phone_parts4.png" onclick="hide_all(); show('hid4');"></img>
+        <br>
+
+        <div id="hid1">
+          <center>
+            <h2>Housing and speakers</h2>
+            <img src="Bastnaesite.jpg" alt="Bastnaesite"></img>
+            <p><b>Bastnaesite</b> is a rare earth mineral used to produce magnets in speakers, microphones, and vibration motors.</p>
+          </center><br>
+        </div>
+        <div id="hid2">
+          <center>
+            <h2>Battery</h2>
+            <img src="spodumene.jpg" alt="Spodumene"></img>
+            <p><b>Spodumene</b> and surface brines are the sources of lithium used in lithium-ion batteries.</p>
+          </center><br>
+        </div>
+        <div id="hid3"><br>
+          <center>
+            <h2>Electronics</h2>
+            <img src="copper.jpg" alt="Copper"></img>
+            <p><b>Copper</b> is the principal conductor of electricity and heat in electronics.</p>
+            <img src="silver.gif" alt="Silver"></img>
+            <p><b>Silver</b>-based inks on composite boards create electrical pathways.</p>
+            <img src="Silicon.jpg" alt="Silicon"></img>
+            <p><b>Silicon</b> is produced from quartz and is the basis of most integrated circuits.</p>
+            <img src="Arsenopyrite.jpg" alt="Arsenopyrite"></img>
+            <p><b>Arsenopyrite</b> is an ore of arsenic, which is used in radio frequency and power amplifiers.</p>
+            <img src="Tantalite.jpg" alt="Tantalite"></img>
+            <p><b>Tantalite</b> is the primary ore of tantalum. Tantalum capasitors regulate voltage and improve audio quality in cell phones.</p>
+            <img src="Wolframite.jpg" alt="Wolframite"></img>
+            <p><b>Wolframite</b> is an ore of tungsten, which acts as a heat sink and provides the mass for cell phone vibration</p>
+          </center><br>
+        </div>
+        <div id="hid4"><br>
+          <center>
+            <h2>LCD and Digitizer</h2>
+            <img src="quartz_sand.jpg" alt="Quartz Sand"></img>
+            <p><b>Quartz Sand</b> is the primary source of silica, which is chemically treated to make durable glass screens.</p>
+            <img src="cassiterite.jpg" alt="Cassiterite"></img>
+            <p><b>Cassiterite</b> is a primary ore of tin. Indium-tin-oxide is the transparent conductive cating used in touch screen displays. Tin is also used in circuit board solder points.</p>
+            <img src="bauxite.jpg" alt="Bauxite"></img>
+            <p><b>Bauxite</b> is the primary ore of aluminium and gallium, which are used for scratch-resistant screens and LED backlightning.</p>
+            <img src="Bastnaesite.jpg" alt="Bastnaesite"></img>
+            <p><b>Bastnaesite</b> is one of the rare earth minerals used to produce phosphors in LED phone displays.</p>
+          </center><br>
+        </div>
       </center>
     </div>
   </body>

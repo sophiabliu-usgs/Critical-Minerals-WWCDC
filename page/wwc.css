@@ -30,3 +30,33 @@ body
   width: 13%;
   height: 13%;
 }
+
+.hid img
+{
+  height: 5%;
+  width: 5%;
+}
+
+#hid1
+{
+  margin-top: 5%;
+  display: none;
+}
+
+#hid2
+{
+  margin-top: 5%;
+  display: none;
+}
+
+#hid3
+{
+  margin-top: 5%;
+  display: none;
+}
+
+#hid4
+{
+  margin-top: 5%;
+  display: none;
+}
